@@ -1,0 +1,70 @@
+@import 'bootstrap/dist/css/bootstrap';
+body {
+  margin: 0 !important;
+}
+p {
+  color: white;
+  font-weight: bold !important;
+  font-family:'Times New Roman', Times, serif !important;
+}
+.navbar {
+  background-color: black !important;
+  color: white !important;
+  height: 70px;
+}
+
+.btn {
+  background-color: #fcba03 !important;
+}
+
+.display-4 {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.lead-1 {
+  font-size: 16px;
+}
+
+.nav-item {
+  float: left;
+}
+
+.jumbotron {
+  background-image: asset-url('imagefirst.jpg');
+  background-position: center;
+  position: static;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 768px;
+  border-radius: 0;
+}
+
+#text-1 {
+  font-size: 20px !important;
+  font-family:'Times New Roman', Times, serif !important;
+}
+
+.separate {
+  font-size: 20px;
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
