@@ -1,7 +1,4 @@
 @import 'bootstrap/dist/css/bootstrap';
-body {
-  margin: 0 !important;
-}
 p {
   color: white;
   font-weight: bold !important;
@@ -15,7 +12,9 @@ p {
 
 .btn {
   background-color: #fcba03 !important;
+  outline: none !important;
 }
+
 
 .display-4 {
   color: white !important;
@@ -30,8 +29,9 @@ p {
 }
 
 .nav-item {
-  float: left;
+  margin-right: 10px;
 }
+
 
 .jumbotron {
   background-image: asset-url('imagefirst.jpg');

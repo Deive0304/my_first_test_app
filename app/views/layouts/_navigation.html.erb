@@ -6,29 +6,19 @@
         <span class="navbar-toggler-icon"></span>
        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse pl-4" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <%= link_to "Data", articles_path, class: "nav-link" %>
+        <%= link_to "Home", root_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Language
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Ruby</a>
-            <a class="dropdown-item" href="#">Python</a>
-            <a class="dropdown-item" href="#">C++ </a>
-            <a class="dropdown-item" href="#">PhP</a>
-            <a class="dropdown-item" href="#">C</a>
-            <a class="dropdown-item" href="#">SQL</a>
-          </div>
+          <%= link_to "Students Profile", articles_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Terms and Condition</a>
+            <%= link_to "Create Profile", new_article_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Terms and Condition</a>  
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">

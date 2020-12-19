@@ -9,9 +9,10 @@
               by Deive Toraja
             </div>
             <div class="card-body bg-dark">
-              <div class="card-text text-left"><%= simple_format(@article.description) %></div>
+              <div class="card-text text-center"><%= simple_format(@article.description) %></div>
+              <div class="card-text text-center"><%= simple_format(@article.title) %></div>
               <%= link_to "Edit", edit_article_path(@article), class: "btn btn-warning text-light" %>
-              <%= link_to "Delete", articles_path(@article),class: "btn btn-warning text-light", method: :destroy, data: {confirm: "Are you sure?"} %>
+              <%= link_to "Delete", article_path(@article),class: "btn btn-warning text-light", method: :Delete, data: {confirm: "Are you sure?"} %>
             </div>
             <div class="card-footer text-light">
               <small> created ago <%= time_ago_in_words(@article.created_at) %> ago,
